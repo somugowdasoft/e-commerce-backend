@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import User from "../models/user";
+import User from "../models_temp/user";
 
 export const requireSignin = (req, res, next) => {
   try {
