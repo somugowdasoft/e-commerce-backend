@@ -34,10 +34,7 @@ This is a full-featured e-commerce application built with Node.js, Express, and 
 ### Installation
 
 1. Clone the repository:
-
-   ```
-   git clone https://github.com/yourusername/e-commerce-app.git
-   
+   ```git clone https://github.com/yourusername/e-commerce-app.git
 2. Navigate to the project directory:
   ```cd e-commerce-app
 3. Install backend dependencies:
@@ -47,15 +44,14 @@ This is a full-featured e-commerce application built with Node.js, Express, and 
 MONGODB_URI=mongodb://localhost:27017/ecommerce
 JWT_SECRET=your_jwt_secret
 
-### Running the Application
+ Running the Application
 ``` npm start
 
 
-## API Documentation
-### GET /api/products:## Retrieve all products.
-### GET /api/products/
-:### Retrieve a specific product by ID.
-### POST /api/users/register: ### Register a new user.
-### POST /api/users/login: ### Authenticate a user and return a JWT.
-### POST /api/cart: ### Add an item to the cart.
-### POST /api/orders: ### Create a new order.
+ ** API Documentation **
+GET /api/products: Retrieve all products.
+GET /api/products/: Retrieve a specific product by ID.
+POST /api/users/register: Register a new user.
+POST /api/users/login: Authenticate a user and return a JWT.
+POST /api/cart: Add an item to the cart.
+POST /api/orders: Create a new order.
